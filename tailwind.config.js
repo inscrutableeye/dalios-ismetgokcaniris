@@ -31,6 +31,7 @@ module.exports = {
       select: "#FFC93E",
       clientback: "#353F5B",
       clienticonback: "#F3F5F6",
+      footer: "#3B435A",
     },
     extend: {
       backgroundImage: {

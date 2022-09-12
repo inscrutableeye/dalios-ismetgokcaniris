@@ -4,6 +4,7 @@ import Image from 'next/image'
 import Blog from '../components/Blog/Blog'
 import Clients from '../components/Clients/Clients'
 import DigitalAgency from '../components/DigltalAgency/DigitalAgency'
+import Footer from '../components/Footer/Footer'
 import Header from '../components/Header/Header'
 import Project from '../components/Projects/Project'
 import Services from '../components/Services/Services'
@@ -68,6 +69,7 @@ const Home: NextPage = () => {
       <Project />
       <Clients />
       <Blog />
+      <Footer />
     </div>
   )
 }
