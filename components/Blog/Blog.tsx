@@ -15,15 +15,19 @@ const Blog: React.FC = () => {
           {' '}
           <text>Web</text>
         </div>
-        <text className='ml-10'>
+        <text className='ml-10 text-text text-3xl'>
           A small business is only as good as its tools and it is totally true.
         </text>
-        <text>
+        <text className=' text-text text-3xl'>
           A small business is only as good as its tools and it is totally true.
         </text>
 
-        <button className='border-text flex self-start ml-10'>read more</button>
-        <button className='border-text flex self-start'>read more</button>
+        <button className='border-text flex  items-center justify-center ml-10 border-2 rounded-full  w-40 h-14'>
+          <text className=' text-text text-base'>read more</text>
+        </button>
+        <button className='border-text flex items-center justify-center  border-2 w-20 rounded-full  w-40 h-14'>
+          <text className=' text-text text-base'>read more</text>
+        </button>
       </div>
     </div>
   )
