@@ -2,7 +2,7 @@ import React from 'react'
 
 const DigitalAgency: React.FC = () => {
   return (
-    <div className='flex flex-row '>
+    <div className='flex 2xl:flex-row lg:flex-row  sm:flex-col 2xl:items-start 2xl:justify-start sm:items-center sm:justify-center'>
       <div className='flex flex-col'>
         <text className='text-5xl text-pcolor pl-40 font-semibold leading-10 non-italic'>
           We are a creative <br></br>
@@ -31,13 +31,13 @@ const DigitalAgency: React.FC = () => {
         </button>
       </div>
 
-      <div className='' />
+      
 
-      <div className='grid gap-4 grid-cols-2 grid-rows-2 2xl:translate-x-full  z-50'>
-        <img src='agency1.png' />
+      <div className='grid 2xl:gap-4  lg:gap-4 sm:gap-2 grid-cols-2 grid-rows-2 2xl:translate-x-full sm:pt-10 z-50'>
+        <img src='agency1.png'  />
         <img src='agency2.png' className='pt-12' />
         <img src='agency3.png' className='pl-12' />
-        <img src='agency4.png' />
+        <img src='agency4.png'   />
       </div>
     </div>
   )

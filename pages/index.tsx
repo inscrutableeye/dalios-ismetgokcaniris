@@ -21,24 +21,21 @@ const Home: NextPage = () => {
         <img src='Ornament 69.png' className='relative' />
 
         <div className='flex 2xl:items-start lg:items-start justify-around pt-40 lg:-translate-x-96 '>
-          <img src='Vector 1.png' className='absolute  translate-x-64  ' />
+          <img src='Vector 1.png' className='absolute  lg:translate-x-64  2xl:translate-x-96 sm:w-40 lg:6/12 2xl:w-7/12 ' />
 
-          <div className='flex flex-col items-center 2xl:justify-start lg:justify-around pr-72'>
-            <div className='flex flex-row'>
+          <div className='flex flex-col items-center 2xl:justify-start lg:justify-around lg:pr-72 2xl:pl-96'>
+            <div className='flex flex-row sm:items-center sm:justify-center 2xl:pr-12'>
               <img src='Group 25.png' />
 
-              <text className='relative text-10xl  text-text font-bold leading-10 pt-14 pr-96 '>
+              <text className='relative lg:text-10xl 2xl:text-10xl sm:text-7xl text-text font-bold leading-10 pt-14 pr-96 '>
                 Digital
               </text>
             </div>
 
-            <div className='flex flex-row justify-between'>
-              <img
-                src='Rectangle 6.png'
-                className='z-50  h-3/4 -ml-20 mt-80 pr-14'
-              />
+         
+          
               <div className='flex flex-col'>
-                <text className='relative text-10xl text-text font-bold leading-10 pt-14 pr-32 '>
+                <text className='relative lg:text-10xl 2xl:text-10xl sm:text-7xl text-text font-bold leading-10 pt-14 pr-32 '>
                   Agency
                 </text>
 
@@ -51,13 +48,12 @@ const Home: NextPage = () => {
                   asasdasddasd
                 </button>
               </div>
-              <img src='Rectangle 1.png' className='z-50 -ml-24 w-80 h-3/4' />
-            </div>
+       
           </div>
         </div>
         <div className='  bg-leftHero w-80 h-80  bg-contain blur-3xl shadow-bg-2xl opacity-20 mr-100%  absolute' />
         <div className='flex 2xl:items-end 2xl:justify-end'>
-          <div className='  bg-hero w-96 h-96 bg-contain blur-3xl shadow-bg-2xl opacity-10 lg:-translate-x-full lg:-ml-96 ' />
+          <div className='  bg-hero w-96 h-96 bg-contain blur-3xl shadow-bg-2xl opacity-10 lg:-translate-x-full lg:-ml-96 2xl:-ml-32  ' />
         </div>
       </div>
 

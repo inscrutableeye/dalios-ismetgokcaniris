@@ -32,11 +32,18 @@ module.exports = {
       clientback: "#353F5B",
       clienticonback: "#F3F5F6",
       footer: "#3B435A",
+      footertext:"#0A142F"
+     
     },
     extend: {
       backgroundImage: {
         "hero-pattern": "Ornament 69.png",
       },
+      lineHeight: {
+        'extra-loose': '2.5',
+        '12': '3rem',
+        "150":"150%"
+      }
     },
     fontSize: {
       xs: ".75rem",
@@ -50,11 +57,12 @@ module.exports = {
       "4xl": "2.25rem",
       "5xl": "3rem",
       "6xl": "4rem",
-      "7xl": "5rem",
+      "7xl": "70px",
       "8xl": "6rem",
       "9xl": "7rem",
       "10xl": "150px",
     },
+  
   },
   plugins: [],
 };
