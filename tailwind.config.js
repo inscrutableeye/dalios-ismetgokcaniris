@@ -32,18 +32,18 @@ module.exports = {
       clientback: "#353F5B",
       clienticonback: "#F3F5F6",
       footer: "#3B435A",
-      footertext:"#0A142F"
-     
+      footertext: "#0A142F",
+      category: "#3A425A",
     },
     extend: {
       backgroundImage: {
         "hero-pattern": "Ornament 69.png",
       },
       lineHeight: {
-        'extra-loose': '2.5',
-        '12': '3rem',
-        "150":"150%"
-      }
+        "extra-loose": "2.5",
+        12: "3rem",
+        150: "150%",
+      },
     },
     fontSize: {
       xs: ".75rem",
@@ -62,7 +62,19 @@ module.exports = {
       "9xl": "7rem",
       "10xl": "150px",
     },
-  
+    screens: {
+      base: "375px",
+      sm: "640px",
+      // => @media (min-width: 640px) { ... }
+      md: "768px",
+      lg: "1024px",
+      // => @media (min-width: 1024px) { ... }
+
+      xl: "1280px",
+
+      "2xl": "1536px",
+      // => @media (min-width: 1280px) { ... }
+    },
   },
   plugins: [],
 };
