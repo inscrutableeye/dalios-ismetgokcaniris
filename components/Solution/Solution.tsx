@@ -2,11 +2,14 @@ import React from 'react'
 
 const Solution: React.FC = () => {
   return (
-    <div className='flex 2xl:flex-row lg:flex-row sm:flex-col-reverse pt-32'>
-      <div className='bg-solback1 2xl:w-2/5 lg:w-2/5 sm:w-full  flex 2xl:pt-24 lg:pt-24  2xl:items-center 2xl:justify-around lg:items-center lg:justify-around  ' >
-        <img src='solimg.png' className='z-30 2xl:ml-96 lg:ml-40 sm:px-7 sm:-translate-y-24  ' />
+    <div className='flex 2xl:flex-row lg:flex-row sm:flex-col-reverse base:flex-col-reverse pt-32'>
+      <div className='bg-solback1 2xl:w-2/5 lg:w-2/5 sm:w-full  flex 2xl:pt-24 lg:pt-24  2xl:items-center 2xl:justify-around lg:items-center lg:justify-around  '>
+        <img
+          src='solimg.png'
+          className='z-30 2xl:ml-96 lg:ml-40 sm:px-7 base:px-7 sm:-translate-y-24  base:-translate-y-24  '
+        />
       </div>
-      <div className='2xl:bg-solback2  lg:bg-solback2  2xl:w-3/5 lg:w-3/5  sm:flex sm:items-center sm:justify-center pb-32'>
+      <div className='2xl:bg-solback2  lg:bg-solback2  2xl:w-3/5 lg:w-3/5  sm:flex sm:items-center sm:justify-center base:flex base:items-center base:justify-center pb-32'>
         <div className='flex flex-col'>
           <text className='text-text text-5xl flex items-center justify-around pt-40 font-bold leading-10'>
             Our Solution Approach
