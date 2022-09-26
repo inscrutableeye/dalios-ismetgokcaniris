@@ -32,7 +32,7 @@ const HeaderMobile: React.FC = () => {
     <div className=' h-65 flex justify-between items-start fixed py-8  z-50  '>
       <img
         src='Dalio.png'
-        className=' base:mr-80 base:pl-10 sm:pl-10 sm:mr-40 md:pl-10 md:mr-96'
+        className=' base:mr-40 base:pl-10 sm:pl-10 sm:mr-40 md:pl-10 md:mr-96'
       />
 
       <img src='Vector.png' />

@@ -25,6 +25,7 @@ const blogData: Array<{
 ]
 
 const BlogMobile: React.FC = () => {
+  const [slider, setSlider] = React.useState<Slider | null>(null)
   const settings = {
     dots: true,
     arrows: false,
@@ -68,21 +69,21 @@ const BlogMobile: React.FC = () => {
           href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css'
         />
       </div>
-      <Slider>
+      <Slider {...settings} ref={slider => setSlider(slider)} className='m-4'>
         {blogData.map((val, index) => (
           <div className='flex flex-col items-center' key={index}>
             <div className='flex flex-col items-center pb-32'>
               <img src={val.image} />
-              <div className='bg-text w-32 flex items-center justify-center rounded-full ml-10 mt-6'>
+              <div className='bg-text w-32 flex items-center justify-center rounded-full  mt-6'>
                 <text>{val.badgetext}</text>
               </div>
-              <text className='text-base leading-6 font-medium text-text ml-10 mt-4'>
+              <text className='text-base leading-6 font-medium text-text  mt-4'>
                 {val.date}
               </text>
-              <text className='ml-10 text-text text-xl font-bold leading-9 mt-4 flex text-center'>
+              <text className=' text-text text-xl font-bold leading-9 mt-4 flex text-center'>
                 {val.desc}
               </text>
-              <button className='border-text flex  items-center justify-center ml-10 border-2 rounded-full  w-40 h-14 mt-8'>
+              <button className='border-text flex  items-center justify-center ml-4 border-2 rounded-full  w-40 h-14 mt-8'>
                 <text className=' text-text text-base'>{val.buttontext}</text>
               </button>
             </div>

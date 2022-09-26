@@ -107,9 +107,14 @@ const ClientsMobile: React.FC = () => {
   return (
     <>
       <div className='flex flex-col mb-40'>
-        <text className='text-5xl text-text font-bold leading-10 mx-32 mt-32'>
-          What say happy clients
-        </text>
+        <div className='flex flex-row items-center justify-center mt-8'>
+          <text className='text-text text-2xl font-bold leading-7'>
+            What client says
+          </text>
+          <text className=' text-heroButton  text-base font-normal leading-5 ml-16'>
+            See All
+          </text>
+        </div>
         <div className='flex flex-row base:justify-center  lg:justify-center'>
           <link
             rel='stylesheet'
@@ -123,11 +128,7 @@ const ClientsMobile: React.FC = () => {
             href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css'
           />
         </div>
-        <Slider
-          {...settings}
-          ref={slider => setSlider(slider)}
-          className='mx-40'
-        >
+        <Slider {...settings} ref={slider => setSlider(slider)} className='m-4'>
           {clientsData.map((val, index) => (
             <div
               className='flex flex-col bg-clientback mt-12 rounded-5xl  '

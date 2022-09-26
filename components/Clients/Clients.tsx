@@ -108,7 +108,7 @@ const Clients: React.FC = () => {
         <ClientsMobile />
       ) : (
         <div className='flex flex-col mb-40'>
-          <text className='text-5xl text-text font-bold leading-10 mx-32 mt-32'>
+          <text className='2xl:text-5xl lg:text-5xl sm:text-2xl base:text-2xl  text-text font-bold leading-10 2xl:mx-32 2xl:mt-32 lg:mx-32 lg:mt-32 sm:mx-4 sm:mt-32'>
             What say happy clients
           </text>
           <div className='flex flex-row base:justify-center  lg:justify-center'>

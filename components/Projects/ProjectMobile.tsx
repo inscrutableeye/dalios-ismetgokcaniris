@@ -8,28 +8,28 @@ const projectmobiledata: Array<{
 }> = [
   {
     title: 'All',
-    image: 'rectangle 12.png',
-    image2: 'rectangle 13.png'
+    image: 'Rectangle 12.png',
+    image2: 'Rectangle 13.png'
   },
   {
     title: 'UI/UX',
-    image: 'rectangle 12.png',
-    image2: 'rectangle 13.png'
+    image: 'Rectangle 12.png',
+    image2: 'Rectangle 13.png'
   },
   {
     title: 'Web Design',
-    image: 'rectangle 12.png',
-    image2: 'rectangle 13.png'
+    image: 'Rectangle 12.png',
+    image2: 'Rectangle 13.png'
   },
   {
     title: 'Branding',
-    image: 'rectangle 12.png',
-    image2: 'rectangle 13.png'
+    image: 'Rectangle 12.png',
+    image2: 'Rectangle 13.png'
   },
   {
     title: 'Interaction',
-    image: 'rectangle 12.png',
-    image2: 'rectangle 13.png'
+    image: 'Rectangle 12.png',
+    image2: 'Rectangle 13.png'
   }
 ]
 const ProjectMobile: React.FC = () => {
@@ -70,7 +70,7 @@ const ProjectMobile: React.FC = () => {
           <text className='text-text text-2xl font-bold leading-7'>
             Our Latest Projects
           </text>
-          <text className=' text-heroButton  text-base font-normal leading-5 ml-96'>
+          <text className=' text-heroButton  text-base font-normal leading-5 ml-16'>
             See All
           </text>
         </div>
@@ -81,7 +81,7 @@ const ProjectMobile: React.FC = () => {
                 onClick={() => setSelectedIndex(index)}
                 className={
                   selectedIndex === index
-                    ? 'text-select px-6 text-base font-medium leading-7 '
+                    ? 'text-select px-6 text-base font-medium leading-7  '
                     : 'text-text px-6 text-base font-medium leading-7'
                 }
               >
@@ -91,7 +91,7 @@ const ProjectMobile: React.FC = () => {
           })}
         </div>
       </div>
-      <div className='flex flex-row items-center justify-center'>
+      <div className='flex flex-row items-center justify-center '>
         <link
           rel='stylesheet'
           type='text/css'
@@ -104,7 +104,7 @@ const ProjectMobile: React.FC = () => {
           href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css'
         />
       </div>
-      <Slider {...settings} ref={slider => setSlider(slider)}>
+      <Slider {...settings} ref={slider => setSlider(slider)} className='m-4 '>
         {projectmobiledata.map((val, index) => (
           <div
             className='flex flex-row items-center justify-center'

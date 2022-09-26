@@ -11,11 +11,11 @@ const Solution: React.FC = () => {
       </div>
       <div className='2xl:bg-solback2  lg:bg-solback2  2xl:w-3/5 lg:w-3/5  sm:flex sm:items-center sm:justify-center base:flex base:items-center base:justify-center pb-32'>
         <div className='flex flex-col'>
-          <text className='text-text text-5xl flex items-center justify-around pt-40 font-bold leading-10'>
+          <text className='text-text text-5xl flex items-center justify-around pt-40 font-bold leading-10 base:pl-4'>
             Our Solution Approach
           </text>
 
-          <div className='flex flex-col items-center'>
+          <div className='flex flex-col items-center p-4'>
             <div className='flex flex-row items-center justify-center pt-12 mr-10'>
               <img src='ok.png' />
               <text className='text-text text-2xl leading-7 font-bold text-left pl-6'>

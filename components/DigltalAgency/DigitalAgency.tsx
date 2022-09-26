@@ -38,7 +38,7 @@ const DigitalAgency: React.FC = () => {
         </button>
       </div>
 
-      <div className='2xl:grid lg:grid sm:grid base:grid 2xl:gap-4  lg:gap-4 sm:gap-2 base:gap-2 base:p-10 grid-cols-2 grid-rows-2 2xl:translate-x-full sm:pt-10 z-50'>
+      <div className='2xl:grid lg:grid sm:grid base:grid 2xl:gap-4  lg:gap-4 sm:gap-2 base:gap-2 base:p-10 grid-cols-2 grid-rows-2  lg:translate-x-64 md:translate-x-64  sm:pt-4 z-50'>
         <img src='agency1.png' />
         <img
           src='agency2.png'

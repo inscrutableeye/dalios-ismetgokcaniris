@@ -27,8 +27,8 @@ const Home: NextPage = () => {
         {screenControl ? (
           <HeroMobile />
         ) : (
-          <div className='flex 2xl:items-start lg:items-start justify-around pt-40 lg:-translate-x-96 '>
-            <div className='flex flex-col items-center 2xl:justify-start lg:justify-around pr-72'>
+          <div className='flex 2xl:items-start lg:items-start justify-around pt-40 2xl:-translate-x-24 lg:-translate-x-64 '>
+            <div className='flex flex-col items-center 2xl:justify-start lg:justify-around pr-64'>
               <div className='flex flex-row'>
                 <img src='Group 25.png' />
 
@@ -43,7 +43,7 @@ const Home: NextPage = () => {
                   className='z-50  h-3/4 -ml-20 mt-80 pr-14'
                 />
                 <div className='flex flex-col'>
-                  <text className='relative text-10xl text-text font-bold leading-10 pt-14 pr-32 '>
+                  <text className='relative text-10xl text-text font-bold leading-10 pt-14 pr-32 -translate-x-24 '>
                     Agency
                   </text>
 

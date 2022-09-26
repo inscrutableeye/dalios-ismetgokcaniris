@@ -67,7 +67,7 @@ const ServicesMobil: React.FC = () => {
           href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css'
         />
       </div>
-      <Slider {...settings} ref={slider => setSlider(slider)}>
+      <Slider {...settings} ref={slider => setSlider(slider)} className='m-4'>
         {servicesData.map((val, index) => (
           <div
             className='flex flex-col items-start bg-servicesback justify-center rounded-5xl'

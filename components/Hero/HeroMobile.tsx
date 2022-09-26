@@ -27,7 +27,7 @@ const HeroMobile: React.FC = () => {
       </div>
       <div className='flex flex-col items-start justify-center -ml-52'>
         <img src='Rectangle 1.png' className='w-80 h-80' />
-        <img src='Rectangle 6.png' className='w-40 h-48' />
+        <img src='Rectangle 6.png' className='w-40 h-48 mt-14' />
       </div>
     </div>
   )

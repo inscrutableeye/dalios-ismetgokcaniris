@@ -86,7 +86,7 @@ const Project: React.FC = () => {
           <text className='text-5xl text-text leading-10 font-bold '>
             Our latest Projects
           </text>
-          <div className='flex flex-row items-center  justify-center pt-6'>
+          <div className='flex flex-row items-center  justify-center pt-6 overflow-x-hidden'>
             {Projects.map((val: any, index: any) => {
               return (
                 <text
@@ -108,19 +108,19 @@ const Project: React.FC = () => {
               <img src={Projects[selectedIndex].image2} />
             </div>
 
-            <div className='flex flex-row items-start justify-around '>
-              <text className='text-base text-text font-bold leading-9 pt-8 2xl:pl-56 lg:pl-30 mr-40 '>
+            <div className='flex flex-row items-start justify-around -translate-x-16 '>
+              <text className='text-base text-text font-bold leading-9 pt-8 2xl:pl-32 lg:pl-30  '>
                 {Projects[selectedIndex].imagetitle}
               </text>
-              <text className='text-base text-text font-bold leading-9 pt-8 2xl:pr-80 mr-24 '>
+              <text className='text-base text-text font-bold leading-9 pt-8 2xl:pr-24 lg:pr-24 '>
                 {Projects[selectedIndex].imagetitle2}
               </text>
             </div>
-            <div className='flex flex-row items-start justify-evenly -ml-16'>
-              <text className='text-base text-pcolor leading-7 font-normal 2xl:pl-96 lg:pl-24  '>
+            <div className='flex flex-row items-start justify-evenly -translate-x-14'>
+              <text className='text-base text-pcolor leading-7 font-normal  2xl:pl-56 lg:pl-56  '>
                 {Projects[selectedIndex].desc}
               </text>
-              <text className='text-base text-pcolor leading-7 font-normal 2xl:pr-96 ml-12 pr-4'>
+              <text className='text-base text-pcolor leading-7 font-normal 2xl:pr-24 lg:pr-24 2xl:pl-8 lg:pl-8'>
                 {Projects[selectedIndex].desc2}
               </text>
             </div>
