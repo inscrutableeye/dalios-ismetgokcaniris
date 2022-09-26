@@ -1,5 +1,5 @@
 import React from 'react'
-import ImTwitter from 'react-icons/Im'
+import ImTwitter from 'react-icons/im'
 const icon = ImTwitter
 const Footer: React.FC = () => {
   return (
