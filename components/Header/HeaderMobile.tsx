@@ -35,7 +35,7 @@ const HeaderMobile: React.FC = () => {
         className=' base:mr-40 base:pl-10 sm:pl-10 sm:mr-40 md:pl-10 md:mr-96'
       />
 
-      <img src='Vector.png' />
+      <img src='Vector.png' className='md:ml-64 sm:ml-0 base:ml-0' />
     </div>
   )
 }

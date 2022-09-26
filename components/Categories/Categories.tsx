@@ -40,7 +40,7 @@ const Categories: React.FC = () => {
     dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 4,
+    slidesToShow: 3,
     slidesToScroll: 1,
     arrows: false,
     responsive: [
@@ -95,21 +95,23 @@ const Categories: React.FC = () => {
           href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css'
         />
       </div>
-      <Slider {...settings} className='m-12'>
-        {categoriesdata.map((val, index) => (
-          <div
-            className='flex flex-col items-center justify-center bg-category rounded-6xl '
-            key={index}
-          >
-            <div className='flex items-center justify-around pt-2.5'>
-              <img src={val.image} />
+      <div className='m-12'>
+        <Slider {...settings}>
+          {categoriesdata.map((val, index) => (
+            <div
+              className='flex flex-col items-center justify-center bg-category rounded-6xl   '
+              key={index}
+            >
+              <div className='flex items-center justify-around pt-2.5'>
+                <img src={val.image} />
+              </div>
+              <text className='text-text flex text-center items-center justify-center text-2xl font-bold leading-8 pt-12 pb-12'>
+                {val.title}
+              </text>
             </div>
-            <text className='text-text flex text-center items-center justify-center text-2xl font-bold leading-8 pt-12 pb-12'>
-              {val.title}
-            </text>
-          </div>
-        ))}
-      </Slider>
+          ))}
+        </Slider>
+      </div>
     </>
   )
 }

@@ -3,7 +3,7 @@ import React from 'react'
 const HeroMobile: React.FC = () => {
   return (
     <div className='flex flex-col items-center justify-center md:-ml-80 sm:-ml-80 base:-ml-96 '>
-      <div className='flex flex-row pt-96'>
+      <div className='flex flex-row pt-40'>
         <img src='Group20.png' />
 
         <text className='relative text-7xl  text-text font-bold leading-10 pt-14 pr-96 '>
